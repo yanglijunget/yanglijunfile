@@ -1,0 +1,6 @@
+(@RequestHeader(value = "token") String token,
+ @RequestParam("pageIndex") Integer pageIndex,
+ @RequestParam("pageSize") Integer pageSize);
+
+@RequestHeader(value = "token") String token,
+ @RequestParam("params") String params);
